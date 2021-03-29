@@ -55,9 +55,9 @@ func standartMode(coef1: Int?, coef2: Int?, coef3: Int?) {
         case (true, true):
             print("Ничья")
         case (true, false):
-            print("Вы победили!!!")
-        case (false, true):
             print("Вы проиграли...")
+        case (false, true):
+            print("Вы победили!!!")
         default :
             break
         }
@@ -89,4 +89,3 @@ func computerVScomputerMode() {
         }
     } while field1.getShipCount() != 0 && field2.getShipCount() != 0
 }
-
